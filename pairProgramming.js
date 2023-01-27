@@ -16,7 +16,8 @@ function sumaDivisores(n){
 console.log(sumaDivisores(220));
 
 //Ejercicio 2
-function buscandoAmigos(m){
+function buscandoAmigos(){
+    let m = prompt("Ingrese el número límite 'm':");
     let numerosAmigos = [];
     for(let i = 1; i <= m; i++){//284
         let suma1 = 0;
@@ -44,4 +45,4 @@ function buscandoAmigos(m){
     return numerosAmigos;
 }
 
-console.log(buscandoAmigos(5000));
+console.log(buscandoAmigos());
