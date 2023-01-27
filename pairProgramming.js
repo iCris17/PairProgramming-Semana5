@@ -1,3 +1,4 @@
+//Ejercicio 1
 function sumaDivisores(n){
     let suma = 0;
 
@@ -14,6 +15,7 @@ function sumaDivisores(n){
 
 console.log(sumaDivisores(220));
 
+//Ejercicio 2
 function buscandoAmigos(m){
     let numerosAmigos = [];
     for(let i = 1; i <= m; i++){//284
